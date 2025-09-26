@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:tropical_fish",
+          "functions": [
+            { "function": "minecraft:set_name",
+              "name": { "text": "Lamproie runique", "color": "dark_purple", "italic": false }
+            },
+            { "function": "minecraft:set_lore",
+              "lore": [
+                { "text": "Ses motifs rappellent des scripts mystiques.", "color": "light_purple", "italic": false },
+                { "text": "Rareté: Rare", "color": "gray", "italic": false }
+              ]
+            },
+            { "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1003, rp:{fish:\"lamproie_runique\", tier:1, rarity:\"rare\"}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

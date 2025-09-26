@@ -1,0 +1,91 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"parent": "fishing_rod_cast",
+	"texture_size": [16, 48],
+	"textures": {
+		"3": "rp:item/rod_bamboo_cast"
+	},
+	"elements": [
+		{
+			"from": [6.8, 4.8, 4.8],
+			"to": [9.2, 7.2, 7.2],
+			"rotation": {"angle": 45, "axis": "x", "origin": [7, 5, 5]},
+			"faces": {
+				"north": {"uv": [0, 10.66667, 2, 11.33333], "texture": "#3"},
+				"east": {"uv": [0, 11.33333, 2, 12], "texture": "#3"},
+				"south": {"uv": [2, 10.66667, 4, 11.33333], "texture": "#3"},
+				"west": {"uv": [2, 11.33333, 4, 12], "texture": "#3"},
+				"up": {"uv": [2, 12.66667, 0, 12], "texture": "#3"},
+				"down": {"uv": [6, 10.66667, 4, 11.33333], "texture": "#3"}
+			}
+		},
+		{
+			"from": [7.2, 0.2, 7.2],
+			"to": [8.8, 17.8, 8.8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 7]},
+			"faces": {
+				"north": {"uv": [0, 5.33333, 2, 10.66667], "texture": "#3"},
+				"east": {"uv": [2, 5.33333, 4, 10.66667], "texture": "#3"},
+				"south": {"uv": [4, 5.33333, 6, 10.66667], "texture": "#3"},
+				"west": {"uv": [6, 5.33333, 8, 10.66667], "texture": "#3"},
+				"up": {"uv": [10, 6, 8, 5.33333], "texture": "#3"},
+				"down": {"uv": [10, 6, 8, 6.66667], "texture": "#3"}
+			}
+		},
+		{
+			"from": [6.8, 10.8, 6.8],
+			"to": [9.2, 12.2, 9.2],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 12, 7]},
+			"faces": {
+				"north": {"uv": [2, 0, 4, 0.33333], "texture": "#3"},
+				"east": {"uv": [2, 0.33333, 4, 0.66667], "texture": "#3"},
+				"south": {"uv": [2, 0.66667, 4, 1], "texture": "#3"},
+				"west": {"uv": [2, 1, 4, 1.33333], "texture": "#3"},
+				"up": {"uv": [2, 0.66667, 0, 0], "texture": "#3"},
+				"down": {"uv": [2, 0.66667, 0, 1.33333], "texture": "#3"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 2.75, 0]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 2.75, 0]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 2.75, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 2.75, 0]
+		},
+		"ground": {
+			"rotation": [-55, 0, 0]
+		},
+		"gui": {
+			"rotation": [-90, 45, 90]
+		},
+		"fixed": {
+			"rotation": [90, -135, 90]
+		}
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [6, 4, 5],
+			"color": 0,
+			"children": [
+				0,
+				1,
+				2,
+				{
+					"name": "group",
+					"origin": [6, 4, 5],
+					"color": 0,
+					"children": []
+				}
+			]
+		}
+	]
+}

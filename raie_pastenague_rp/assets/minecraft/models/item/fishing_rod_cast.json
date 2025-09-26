@@ -1,0 +1,7 @@
+{
+  "parent": "item/handheld_rod",
+  "textures": { "layer0": "item/fishing_rod_cast" },
+  "overrides": [
+    { "predicate": { "custom_model_data": 1001 }, "model": "rp:item/rod_bamboo_cast" }
+  ]
+}

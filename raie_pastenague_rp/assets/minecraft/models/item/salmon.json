@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": { "layer0": "minecraft:item/salmon" },
+  "overrides": [
+    { "predicate": { "custom_model_data": 1002 }, "model": "rp:item/fish/perche_des_brumes" }
+  ]
+}
